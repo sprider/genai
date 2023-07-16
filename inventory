@@ -1,0 +1,7 @@
+[all:vars]
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+ansible_ssh_port=22 
+ansible_user=ubuntu
+
+[app_hosts]
+app_host1 ansible_ssh_host=ip
